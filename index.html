@@ -13,6 +13,15 @@
 <!-- End Google Tag Manager -->
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132461245-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132461245-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -28,7 +37,7 @@
     <!-- <div> (cz. 1) Krótki tekst (tzw. Lead) z przyciskiem CTA (call to action) - zobacz wiecej</div> -->
     <section>
         <div class="lead-container">
-            <h1>Odkryj nowy wymiar rozgrywki</h1>
+            <p id="page-title">Odkryj nowy wymiar rozgrywki</p>
             <button class="cta-button">Dolącz już dzis!</button>
         </div>
     </section>
@@ -37,17 +46,27 @@
     <section>
         <div class="products-container">
             <div class="product">
-                <div class="product-img">Some image</div>
-                <div class="product-info">Example product description</div>
+                <img class="product-img" src="assets/rtx2070.jpeg" alt="NVIDIA"></img>
+                <div class="product-name">GeForce RTX 2070</div>
+                <div class="product-info">
+                    Nowe potężne karty GeForce RTXTM 2070 oparte są na najnowocześniejszej architekturze
+                    NVIDIA Turing™ zapewniając Ci niewiarygodnie wysoką wydajność oraz niezwykle wciągające
+                    i realistyczne wrażenia w najnowszych grach.
+                </div>
                 <div class="external-link">
-                    <a href=""></a>
+                    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/" target="_blank">Szczegóły</a>
                 </div>
             </div>
             <div class="product">
-                <div class="product-img">Some image</div>
-                <div class="product-info">Example product description</div>
+                <img class="product-img" src="assets/rtx2080ti.jpg" alt="NVIDIA"></img>
+                <div class="product-name">GeForce RTX 2080 Ti</div>
+                <div class="product-info">
+                    Najnowszy flagowy model karty graficznej firmy NVIDIA to rewolucja w sferze
+                    realizmu i wydajności w grach. Potężna architektura GPU NVIDIA Turing™ , przełomowe
+                    technologie oraz 11 GB ultraszybkiej pamięci GDDR6.
+                </div>
                 <div class="external-link">
-                    <a href=""></a>
+                    <a href="https://www.nvidia.com/pl-pl/geforce/graphics-cards/rtx-2080-ti/" target="_blank">Szczegóły</a>
                 </div>
             </div>
         </div>
