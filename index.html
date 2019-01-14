@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P8B3DMV');</script>
+<!-- End Google Tag Manager -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8B3DMV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- <div> (cz. 1) Krótki tekst (tzw. Lead) z przyciskiem CTA (call to action) - zobacz wiecej</div> -->
+    <section>
+        <div class="lead-container">
+            <h1>Odkryj nowy wymiar rozgrywki</h1>
+            <button class="cta-button">Dolącz już dzis!</button>
+        </div>
+    </section>
+
+    <!-- <div> (cz. 2) Prezentacja 2 produktów z linkami na zewnątrz (nazwane szczegóły) </div> -->
+    <section>
+        <div class="products-container">
+            <div class="product">
+                <div class="product-img">Some image</div>
+                <div class="product-info">Example product description</div>
+                <div class="external-link">
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">Some image</div>
+                <div class="product-info">Example product description</div>
+                <div class="external-link">
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <div> (cz. 3) Zaembedowane wideo z YT z zaletami produktu </div> -->
+    <section>
+        <div class="embedded-video">
+            <iframe width="974" height="548" src="https://www.youtube.com/embed/02h_dNl-C-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- (cz. 4) Formularz z 3 polami (imię i nazwisko, telefon i treść)
+    i przyciskiem więcej (wysyłanie formularza nie musi być obsługiwane) -->
+    <section>
+        <div>
+            <form class="join_us_form">
+                First name:<br>
+                <input type="text" name="firstname" value="Mickey">
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname" value="Mouse">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+
+<!-- 2. Implementujemy na stronie Google Tag Managera - materiały (internet i książka w kursie), oraz zakładamy konto Google Analytics
+
+3. Z wykorzystaniem GTM implementujemy: kod śledzenia Google Analytics [i] kod śledzący - kliknięcie w link CTA [i]
+kod śledzący - kliknięcie w link „szczegóły” wypełnienie formularza przeskrolowanie strony do 25%,50%,75%,100% odtworzenie filmu
+Video częściowe wypełnienie formularza bez wysłania wysłanie formularza Uwaga! Kod uznajemy za diałający jeżeli generuje
+odpowiednie zdarzenia w GA 4. W GA implementujemy cel: 1. Cel 1 - interakcja ze stroną (zdarzenia które zostały oznaczone jako [I]) 2.
+Cel 2 - wypełnienie i wysłamnie formularza Trzeba być przygotowanym na pytanie czym róźni się cel od GTM 5.
+Tagujemy  sztucznie linki wchodzące na stronę z wykorzystaniem tego generatora Kreatory adresów URL - Analytics - Pomoc i tworzymy
+kilka sztucznych wejść, które powinny mieć odzwierciedlenie w odpowiednich raportach. -->
+
+</html>
