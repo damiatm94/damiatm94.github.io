@@ -64,7 +64,8 @@
                     technologie oraz 11 GB ultraszybkiej pamięci GDDR6.
                 </div>
                 <div class="external-link">
-                    <a class="details-link" href="https://www.nvidia.com/pl-pl/geforce/graphics-cards/rtx-2080-ti/" target="_blank">Szczegóły</a>
+                    <a class="details-link" href="https://www.nvidia.com/pl-pl/geforce/graphics-cards/rtx-2080-ti/"
+                        target="_blank">Szczegóły</a>
                 </div>
             </div>
         </div>
@@ -80,19 +81,22 @@
 
     <section>
         <div>
-            <form class="join_us_form">
-                Imię:<br>
-                <input type="text" name="firstname" placeholder="Jan">
+            <form id="join_form" class="join_us_form">
+                Imię i nazwisko:<br>
+                <input class="form-element" type="text" name="name" placeholder="Jan Kowalski">
                 <br>
-                Nazwisko:<br>
-                <input type="text" name="lastname" placeholder="Kowalski">
-                <br><br>
                 Telefon:<br>
-                <input type="text" name="lastname" placeholder="123456789">
+                <input class="form-element" type="text" name="phoneNumber" placeholder="123456789">
+                <br>
+                Treść:<br>
+                <input class="form-element" type="text" name="description" placeholder="Treść...">
                 <br><br>
-                <input type="submit" value="Wyślij">
+                <button class="form-element" type="button">Więcej</button>
+                <br><br><br>
+                <input class="form-element" type="submit" value="Wyślij">
             </form>
         </div>
     </section>
 </body>
+
 </html>
